@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turtle Gold</title>
     <!--<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'>-->
-    <link rel="stylesheet" type="text/css" href="css/roadmap.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel='icon' href='favicons.png' type='image/x-icon'/ >
+    <link rel="stylesheet" type="text/css" href="https://turtlegold.github.io/css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
     <style>
       body {
@@ -20,9 +18,11 @@
         <script src="script.js"></script>
         <div id="navbar">
             <a href="#section1" class = "linkbutton">Home</a>
-            <a href="/art" class = "linkbutton">Art</a>
-            <a href="/artist-statement" class = "linkbutton">Artist Statement</a>
+            <a href="#section2" class = "linkbutton">Features</a>
+            <a href="#section3" class = "linkbutton">Releases</a>
             <a href="roadmap.html" class = "linkbutton">Roadmap</a>
+            <a href="https://github.com/turtlegold/turtlegold" class = "linkbutton" target="_blank"><img src="github.jpg" width="25" height="25" title="github" alt="github"></a>
+            <a href="https://discord.gg/4zycsZ6" class = "linkbutton" target="_blank"><img src="discord.jpg" width="25" height="25" title="discord" alt="discord"></a>
         </div>
 
 
@@ -49,9 +49,27 @@
                     </center>
                 <br><br>
             </div>
-        </section>                          
+        </section>
+
+
+
+        <section class="section2">
+            <div id="section2">
+                <br><br><br><br>
+                    <font size="5">
+                        <h1> Turtle Gold Features</h1><br><br>
+                        <i class="has-text-black fas fa-microchip fa-3x"></i>
+                        <div class = "specs"><img src="spec1.jpg" width="100" height="100" title="25 Second Blocktime" alt="25 Second Blocktime"><br>25 Second Blocktime</div>
+                        <div class = "specs"><img src="spec2.jpeg" width="48" height="48" title="Lite Blocks" alt="Lite Blocks"><br>Lite Blocks</div>
+                        <div class = "specs"><img src="spec3.jpg" width="100" height="100" title="ASIC Resistant" alt="ASIC Resistant"><br>ASIC Resistant </div><br><br>
+                        <div class = "specs"><img src="spec4.jpg" width="100" height="100" title="100 Trillion Coin Supply" alt="100 Trillion Coin Supply"><br>100 Trillion Coin Supply</div>
+                        <div class = "specs"><img src="spec5.jpg" width="100" height="100" title="Cryptonight Turtle" alt="Cryptonight Turtle"><br>Cryptonight Turtle</div>
+                        <div class = "specs"><img src="spec6.jpg" width="100" height="100" title="No Premine" alt="No Premine"><br>No Premine</div>
+                            
+                            
                     <br><br>
-         
+                    <!--<a href="/github/letsvote.html" class="button1">View the Github Page</a>  <a href="/projects/letsvote/introduction.html"  class="button1">View a Demo</a>-->
+
                 </font>
                 
 
@@ -70,6 +88,26 @@
 
             </div>
         </section>
+
+
+
+        <section class="section1">
+            <div id="section3">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <font size="8">
+                    <h1>Releases</h1>
+                    <br>
+                </font>
+                <!--<div class="releases-windows"><span><font size = "8"><u>Windows</u></font><br><br>Download Latest</span></div>        <div class="releases-linux"><span><font size = "8"><u>Linux</u></font><br><br>Download Latest</span></div>-->
+                <div class="releases-windows">
+                    <span class="words-windows"><font size = "8"><u>Windows</u></font><br><br>Download The Latest Version</span>
+                    <span class="info-windows"><font size = "8" color = "black"><u>Windows</u></font><br><br><a href="https://github.com/turtlegold/TurtleGold/releases/download/v0.01/TurtleGold-06-04-2019-windows-x64.zip" class = "linkbutton"> V1.0.0 Windows.zip File</a></span>
+                </div>
+                <div class="releases-linux">
+                    <span class="words-linux"><font size = "8"><u>Linux</u></font><br><br>Download The Latest Version</span>
+                    <span class="info-linux"><font size = "8" ><u>Linux</u></font><br><br><a href=" https://github.com/turtlegold/TurtleGold/releases/download/v0.01/TurtleGold-06-04-2019-linux-x64.zip" class = "linkbutton">V1.0.0 Linux.zip file</a></span>
+                </div>
+                <br><br><br>
                     
                 <!--<center>
                 <a href = "/#section3">
@@ -89,16 +127,12 @@
     </div>
     <script>
    
-
     // When the user scrolls the page, execute myFunction 
     window.onscroll = function() {myFunction()};
-
     // Get the navbar
     var navbar = document.getElementById("navbar");
-
     // Get the offset position of the navbar
     var sticky = navbar.offsetTop;
-
     // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
     function myFunction() {
     if (window.pageYOffset >= sticky) {
@@ -107,8 +141,6 @@
         navbar.classList.remove("sticky");
     }
     }
-
-
     </script>
 
 </body>
