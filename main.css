@@ -132,7 +132,7 @@ html{
 }
 
 .button{
-  background:#ffffff; /* white */
+  background:#000000; /* black */
   border:none;
   color:black;
   padding:15px 32px;
@@ -147,8 +147,8 @@ html{
 
 .button:hover{
   background:#000000; /* black */
-  color:white;
-  border:5px solid white;
+  color:black;
+  border:5px solid black;
   padding:10px 27px;
 
 }
