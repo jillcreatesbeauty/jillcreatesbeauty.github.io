@@ -5,77 +5,7 @@ body{
    margin:0;
 }
 
-html{
-  scroll-behavior:smooth;
- }
-.typing > *{
-  overflow:hidden;
-  white-space:nowrap;
-  animation:typingAnim 5s steps(50);
-}
-.releases-windows{
-    background:#ffffff; 
-    color:black;
-    border:5px solid black;
-    padding:10px 27px;
-    text-align:center;
-    text-decoration:none;
-    display:inline-block;
-    font-size:20px;
-    margin:0;
-    width:300px;
-    height:400px;
-}
-.releases-windows .info-windows{
-    display:none; 
-}
-.releases-windows:hover .words-windows{
-   display:none; 
-}
-.releases-windows:hover .info-windows{
-   display:inline; 
-}
 
-
-.releases-linux{
-    background:#ffffff; 
-    color:black;
-    border:5px solid black;
-    padding:10px 27px;
-    text-align:center;
-    text-decoration:none;
-    display:inline-block;
-    font-size:20px;
-    margin:0;
-    width:300px;
-    height:400px;
-}
-.releases-linux .info-linux{
-    display:none; 
-}
-.releases-linux:hover .words-linux{
-   display:none; 
-}
-.releases-linux:hover .info-linux{
-   display:inline; 
-}
-.specs{
-  background:#000000; /*black */
-  border:none;
-  color:white;
-  padding:15px 32px;
-  text-align:center;
-  text-decoration:none;
-  display:inline-block;
-  font-size:20px;
-  margin:0;
-  width:300px;
-  height:150px;
-}
-.specs img{
-  width:50px;
-   height:50px;
-}
 .section1{
   background:black;
   height:100%;
@@ -132,7 +62,7 @@ html{
 }
 
 .button{
-  background:#000000; /* black */
+  background:#ffffff; /* black */
   border:none;
   color:black;
   padding:15px 32px;
@@ -141,59 +71,16 @@ html{
   display:inline-block;
   font-size:20px;
   margin:0;
-  width: 200px;
-  height: 60px;
+
 }
 
 .button:hover{
   background:#000000; /* black */
-  color:black;
-  border:5px solid black;
+  color:white;
+  border:5px solid white;
   padding:10px 27px;
 
 }
-.button-disabled{
-  background:#ffffff; /* white */
-  border:none;
-  color:black;
-  padding:15px 32px;
-  text-align:center;
-  text-decoration:none;
-  display:inline-block;
-  font-size:20px;
-  margin:0;
-  cursor:not-allowed;
-}
-
-.button1{
-  background:#000000; /* black */
-  border:none;
-  color:white;
-  padding:15px 32px;
-  text-align:center;
-  text-decoration:none;
-  display:inline-block;
-  font-size:20px;
-  margin:0;
-}
-
-.button1:hover{
-  background:#ffffff; /* white */
-  color:black;
-  border:5px solid black;
-  padding:10px 27px;
-}
-.button1-disabled{
-  background:#000000; /* black */
-  border:none;
-  color:white;
-  padding:15px 32px;
-  text-align:center;
-  text-decoration:none;
-  display:inline-block;
-  font-size:20px;
-}
-
 
 .linkbutton{
   background:#000000; /* black */
@@ -225,81 +112,7 @@ body{
   height:24px;
 }
 
-.chevronb{
-  position:absolute;
-  width:28px;
-  height:8px;
-  opacity:0;
-  transform:scale3d(0.5, 0.5, 0.5);
-  animation:move 3s ease-out infinite;
-}
-
-.chevronb:first-child{
-  animation:move 3s ease-out 1s infinite;
-}
-
-.chevronb:nth-child(2){
-  animation:move 3s ease-out 2s infinite;
-}
-
-.chevronb:before,
-.chevronb:after{
-  content:' ';
-  position:absolute;
-  top:0;
-  height:100%;
-  width:51%;
-  background:#000000;
-}
-
-.chevronb:before{
-  left:0;
-  transform:skew(0deg, 30deg);
-}
-
-.chevronb:after{
-  right:0;
-  width:50%;
-  transform:skew(0deg, -30deg);
-}
-
-.chevronw{
-  position:absolute;
-  width:28px;
-  height:8px;
-  opacity:0;
-  transform:scale3d(0.5, 0.5, 0.5);
-  animation:move 3s ease-out infinite;
-}
-
-.chevronw:first-child{
-  animation:move 3s ease-out 1s infinite;
-}
-
-.chevronw:nth-child(2){
-  animation:move 3s ease-out 2s infinite;
-}
-
-.chevronw:before,
-.chevronw:after{
-  content:' ';
-  position:absolute;
-  top:0;
-  height:100%;
-  width:51%;
-  background:#ffffff;
-}
-
-.chevronw:before{
-  left:0;
-  transform:skew(0deg, 30deg);
-}
-
-.chevronw:after{
-  right:0;
-  width:50%;
-  transform:skew(0deg, -30deg);
-}
+.
 
 @keyframes move{
   25%{
@@ -320,31 +133,3 @@ body{
   }
 }
 
-.text{
-  display:block;
-  margin:75px 0 0 -30px;
-  font-family:"Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size:12px;
-  color:#fff;
-  text-transform:uppercase;
-  white-space:nowrap;
-  opacity:.25;
-  animation:pulse 2s linear alternate infinite;
-}
-
-@keyframes pulse{
-  to{
-    opacity:1;
-  }
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn{
-  from{opacity:0;} 
-  to{opacity:1;}
-}
-
-@keyframes fadeIn{
-  from{opacity:0;}
-  to{opacity:1 ;}
-}
