@@ -12,6 +12,7 @@ body{
   text-align:center;
   margin:0;
   color:white;
+  height: 750px;
 }
 .section2{
 
@@ -20,6 +21,7 @@ body{
   text-align:center;
   margin:0;
   color:black;
+  height: 750px;
 }
 .rightCenter{
     text-align:right;
