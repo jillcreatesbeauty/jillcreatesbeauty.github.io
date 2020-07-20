@@ -1,5 +1,5 @@
 body{
-   background:black;
+   background:white;
    text-align:center;
    display:block;
    margin:0;
@@ -7,11 +7,12 @@ body{
 
 
 .section1{
-  background:black;
+  background:white;
   height:100%;
   text-align:center;
   margin:0;
-  color:white;
+  color:black;
+  height: 700px;
 }
 .section2{
 
@@ -20,6 +21,7 @@ body{
   text-align:center;
   margin:0;
   color:black;
+  height: 700px;
 }
 .rightCenter{
     text-align:right;
@@ -27,14 +29,14 @@ body{
 /* Navbar container */
 #navbar{
   overflow:hidden;
-  background:black;
+  background:white;
   text-align:center;
   list-style:none;
   z-index:10;
 }
 #navbar a{
   display:inline-block;
-  color:white;
+  color:black;
   text-align:center;
   padding:14px;
   text-decoration:none;
@@ -64,7 +66,7 @@ body{
 .button{
   background:#ffffff; /* black */
   border:none;
-  color:black;
+  color:white;
   padding:15px 32px;
   text-align:center;
   text-decoration:none;
@@ -75,17 +77,17 @@ body{
 }
 
 .button:hover{
-  background:#000000; /* black */
-  color:white;
-  border:5px solid white;
+  background:#ffffff; /* white */
+  color:black;
+  border:5px solid black;
   padding:10px 27px;
 
 }
 
 .linkbutton{
-  background:#000000; /* black */
+  background:#ffffff; /* white */
   border:none;
-  color:white;
+  color:black;
   padding:15px 32px;
   text-align:center;
   display:inline-block;
@@ -132,4 +134,4 @@ body{
     transform:translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
-
+© 2020 GitHub, Inc.
